@@ -1,7 +1,7 @@
-export default function KelvinName() {
+export default function KelvinName({ text = "Kelvin Castro da Silva Costa" }) {
   return (
     <p>
-      <b>Kelvin Castro da Silva Costa</b> - kelvin-name.tsx
+      <b>{text}</b> – kelvin-name.tsx
     </p>
   );
 }
