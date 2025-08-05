@@ -13,6 +13,9 @@ export default function Nav() {
         <li>
           <Link to="/kelvin">Kelvin</Link>
         </li>
+        <li>
+          <Link to="/choice">Choice</Link>
+        </li>
       </ul>
     </nav>
   );

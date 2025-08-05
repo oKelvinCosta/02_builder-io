@@ -24,6 +24,14 @@ export default function BuilderPage() {
         })
         .promise();
 
+      // const content = await builder
+      //   .get("page", {
+      //     url: "/choice",
+      //   })
+      //   .promise();
+
+      console.log("content", content);
+      console.log("SAVE:", JSON.stringify(content));
       setContent(content);
       setNotFound(!content);
 
