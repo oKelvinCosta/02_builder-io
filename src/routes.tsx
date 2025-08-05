@@ -1,4 +1,5 @@
 import { createHashRouter } from "react-router-dom";
+import BuilderPage from "./pages/builder-page";
 import BuilderPageProd from "./pages/builder-page-PROD";
 import Components from "./pages/components";
 
