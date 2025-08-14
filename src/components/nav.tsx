@@ -25,6 +25,11 @@ export default function Nav() {
             <Link to="/choice">Choice</Link>
           </Button>
         </li>
+        <li>
+          <Button asChild variant="outline">
+            <Link to="/components">Components</Link>
+          </Button>
+        </li>
       </ul>
     </nav>
   );

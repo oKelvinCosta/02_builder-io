@@ -3,7 +3,7 @@ import { BuilderComponent, builder, useIsPreviewing } from "@builder.io/react";
 import React from "react";
 import { useLocation } from "react-router-dom";
 import Nav from "../components/nav";
-import "./builder-registry";
+import "../lib/builder-registry";
 
 builder.init(import.meta.env.VITE_PUBLIC_BUILDER_KEY!);
 
@@ -31,7 +31,6 @@ export default function BuilderPage() {
       //   .promise();
 
       console.log("content", content);
-      console.log("SAVE:", JSON.stringify(content));
       setContent(content);
       setNotFound(!content);
 

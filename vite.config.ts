@@ -5,12 +5,23 @@ import path from "path";
 import { defineConfig } from "vite";
 // https://vite.dev/config/
 
+// Enable use of .env variables
+import dotenv from 'dotenv';
+dotenv.config();
+
+// Get folder name from .env
+const folder = process.env.VITE_DIST_BUILD;
+
 export default defineConfig({
   base: "./",
   plugins: [react(), builderDevTools(), tailwindcss()],
-  // Garante que o eval do Builder não quebre a minificação
+
   build: {
-    // Garante que o eval do Builder não quebre a minificação
+    outDir: path.resolve(__dirname, `dist/${folder}`),
+    emptyOutDir: true,
+    // Increase chunk size warning limit (in kbs)
+    chunkSizeWarningLimit: 1000,
+    // eval of Builder do not break minification
     commonjsOptions: {
       ignoreTryCatch: false,
     },

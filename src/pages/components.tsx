@@ -1,6 +1,8 @@
 import AccordionContained from "@/components/AccordionContained";
 import CardBuildIo from "@/components/card-build-io";
 import CarouselCard from "@/components/CarouselCard";
+import ConcludeScorm from "@/components/conclude-scorm";
+import Nav from "@/components/nav";
 
 export default function Components() {
   const previewCard = {
@@ -40,14 +42,18 @@ export default function Components() {
   ];
 
   return (
-    <div className="p-10 max-w-[780px] mx-auto">
-      <CardBuildIo
-        title={previewCard.title}
-        description={previewCard.description}
-        imageUrl={previewCard.imageUrl}
-      />
-      <AccordionContained items={previewAccordionContained} />
-      <CarouselCard items={previewCarouselCard} />
-    </div>
+    <>
+      <Nav />
+      <div className="p-10 max-w-[780px] mx-auto">
+        <ConcludeScorm />
+        <CardBuildIo
+          title={previewCard.title}
+          description={previewCard.description}
+          imageUrl={previewCard.imageUrl}
+        />
+        <AccordionContained items={previewAccordionContained} />
+        <CarouselCard items={previewCarouselCard} />
+      </div>
+    </>
   );
 }
