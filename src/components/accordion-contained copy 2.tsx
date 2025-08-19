@@ -3,7 +3,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
+} from '@/components/ui/accordion';
 
 interface AccordionItemProps {
   items: {
@@ -14,12 +14,12 @@ interface AccordionItemProps {
 
 const previewAccordionContained = [
   {
-    title: "Item 1",
-    content: "Conteúdo do item 1",
+    title: 'Item 1',
+    content: 'Conteúdo do item 1',
   },
   {
-    title: "Item 2",
-    content: "Conteúdo do item 2",
+    title: 'Item 2',
+    content: 'Conteúdo do item 2',
   },
 ];
 
@@ -27,12 +27,12 @@ export default function AccordionContained({
   items = previewAccordionContained,
 }: AccordionItemProps) {
   return (
-    <Accordion type="single" collapsible className="my-3 w-full">
+    <Accordion type="multiple" className="my-3 w-full" defaultValue={['item-0', 'item-1']}>
       {items.map((item, index) => (
         <AccordionItem
           key={`${item.title}${index}`}
-          value={`${item.title}${index}`}
-          className=":first:mt-0 mt-2 w-full rounded-md border bg-card text-card-foreground shadow-none [&_h3]:mb-0"
+          value={`item-${index}`}
+          className=":first:mt-0 bg-card text-card-foreground mt-2 w-full rounded-md border shadow-none [&_h3]:mb-0"
         >
           <AccordionTrigger className="px-4 text-lg">{item.title}</AccordionTrigger>
           <AccordionContent className="px-4">{item.content}</AccordionContent>

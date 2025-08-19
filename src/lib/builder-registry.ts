@@ -1,11 +1,12 @@
 import { Builder } from '@builder.io/react';
-import CarouselCard from '@/components/CarouselCard';
-import AccordionContained from '../components/AccordionContained';
+import CarouselCard from '@/components/caroussel-card';
+import AccordionContained from '../components/accordion-contained';
 import { AlertDialogDemo } from '../components/alert-dialog-demo';
 import CardBuildIo from '../components/card-build-io';
 import { CarouselSize } from '../components/carousel-size';
 import ConcludeScorm from '../components/conclude-scorm';
 import Counter from '../components/Counter/Counter';
+import Hero from '../components/hero';
 import KelvinName from '../components/kelvin-name';
 import StressTest from '../components/stress-test';
 
@@ -65,13 +66,20 @@ Builder.registerComponent(CardBuildIo, {
 
 Builder.registerComponent(AccordionContained, {
   name: 'AccordionContained',
+  canHaveChildren: true, // Can have child components
   inputs: [
     {
-      name: 'items',
-      type: 'list',
+      name: 'accordionList',
+      type: 'array',
+      defaultValue: [
+        {
+          accordionName: 'Item 1',
+          blocks: [],
+        },
+      ],
       subFields: [
-        { name: 'title', type: 'string' },
-        { name: 'content', type: 'string' },
+        { name: 'accordionName', type: 'string' },
+        { name: 'blocks', type: 'uiBlocks', hideFromUI: true, defaultValue: [] },
       ],
     },
   ],
@@ -110,4 +118,21 @@ Builder.registerComponent(CarouselCard, {
 
 Builder.registerComponent(ConcludeScorm, {
   name: 'ConcludeScorm',
+});
+
+Builder.registerComponent(Hero, {
+  name: 'Hero',
+  inputs: [
+    {
+      name: 'title',
+      type: 'string',
+      required: true,
+      defaultValue: 'TÍTULO DO HERO',
+    },
+    {
+      name: 'imageUrl',
+      type: 'file',
+      allowedFileTypes: ['jpeg', 'png', 'jpg', 'gif', 'webp', 'svg'],
+    },
+  ],
 });

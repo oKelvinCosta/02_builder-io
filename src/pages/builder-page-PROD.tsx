@@ -8,8 +8,6 @@ import Nav from "@/components/nav";
 // Initialize Builder.io with the API key from environment variables
 builder.init(import.meta.env.VITE_PUBLIC_BUILDER_KEY!);
 
-console.log("import.meta.env.VITE_PUBLIC_BUILDER_KEY", import.meta.env.VITE_PUBLIC_BUILDER_KEY);
-
 /**
  * Main page component that renders Builder.io content
  * Handles both production (static JSON) and development/preview (live Builder.io) modes
