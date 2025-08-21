@@ -127,7 +127,8 @@ export function ScormProvider({ children }: ScormProviderProps) {
   // so the logs will be shown in the console while you test in the production environment (LMS)
 
   // Returns TRUE if the environment is development (using npm run dev). When building(npm run build or npm run scorm), the value will be "production", returning false.
-  const isDevelopment = process.env.NODE_ENV === 'development';
+  const isDevelopment =
+    process.env.NODE_ENV === 'development' || import.meta.env.VITE_ENABLE_SCORM_DEBUG === 'true';
 
   // Activate the debug based on the environment variable
   pipwerks.debug.isActive = import.meta.env.VITE_ENABLE_SCORM_DEBUG === 'true';

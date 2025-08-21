@@ -1,9 +1,9 @@
 // builder-page.tsx
-import { BuilderComponent, builder, useIsPreviewing } from "@builder.io/react";
-import React from "react";
-import { useLocation } from "react-router-dom";
-import Nav from "../components/nav";
-import "../lib/builder-registry";
+import { BuilderComponent, builder, useIsPreviewing } from '@builder.io/react';
+import React from 'react';
+import { useLocation } from 'react-router-dom';
+import Nav from '../components/nav';
+import '../lib/builder-registry';
 
 builder.init(import.meta.env.VITE_PUBLIC_BUILDER_KEY!);
 
@@ -14,12 +14,12 @@ export default function BuilderPage() {
   const [content, setContent] = React.useState(null);
 
   // converte URL hash ou pathname
-  const currentPath = location.hash?.replace(/^#/, "") || location.pathname;
+  const currentPath = location.hash?.replace(/^#/, '') || location.pathname;
 
   React.useEffect(() => {
     async function fetchContent() {
       const content = await builder
-        .get("page", {
+        .get('page', {
           url: currentPath,
         })
         .promise();
@@ -30,7 +30,7 @@ export default function BuilderPage() {
       //   })
       //   .promise();
 
-      console.log("content", content);
+      console.log('Copy JSON here:', content);
       setContent(content);
       setNotFound(!content);
 

@@ -1,0 +1,2644 @@
+{
+  "createdDate": 1754340671472,
+  "id": "9c949b1d38a141529b24bb1ed15b985e",
+  "name": "Choices",
+  "modelId": "0a0fe3cb9e514dcd9b1c97ed9df0930b",
+  "published": "published",
+  "meta": {
+    "hasLinks": false,
+    "lastPreviewUrl": "http://localhost:5173/?builder.space=e8f1ac52bdd7497498f100bd5d54e5d7&builder.user.permissions=read%2Ccreate%2Cpublish%2CeditCode%2CeditDesigns%2Cadmin%2CeditLayouts%2CeditLayers%2CeditContentPriority%2CeditFolders%2CeditProjects%2CmodifyMcpServers%2CmodifyProjectSettings%2CconnectCodeRepository%2CcreateProjects%2CindexDesignSystems&builder.user.role.name=Admin&builder.user.role.id=admin&builder.cachebust=true&builder.preview=page&builder.noCache=true&builder.allowTextEdit=true&__builder_editing__=true&builder.overrides.page=9c949b1d38a141529b24bb1ed15b985e&builder.overrides.9c949b1d38a141529b24bb1ed15b985e=9c949b1d38a141529b24bb1ed15b985e&builder.overrides.page:/=9c949b1d38a141529b24bb1ed15b985e&builder.options.locale=Default",
+    "kind": "page"
+  },
+  "query": [
+    {
+      "@type": "@builder.io/core:Query",
+      "property": "urlPath",
+      "operator": "is",
+      "value": "/choice"
+    }
+  ],
+  "data": {
+    "state": {
+      "animationId": null,
+      "balls": [],
+      "isConfettiActive": false,
+      "confettiAnimationId": null,
+      "confetti": [],
+      "deviceSize": "large",
+      "location": {
+        "host": "localhost:5173",
+        "pathname": "/choice",
+        "path": ["choice"],
+        "query": {}
+      }
+    },
+    "cssCode": "",
+    "inputs": [],
+    "tsCode": "",
+    "jsCode": "",
+    "customFonts": [
+      {
+        "subsets": [
+          "cyrillic",
+          "cyrillic-ext",
+          "greek",
+          "greek-ext",
+          "latin",
+          "latin-ext",
+          "vietnamese"
+        ],
+        "category": "sans-serif",
+        "files": {
+          "100": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyeMZhrib2Bg-4.ttf",
+          "200": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyfMZhrib2Bg-4.ttf",
+          "300": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuOKfMZhrib2Bg-4.ttf",
+          "500": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuI6fMZhrib2Bg-4.ttf",
+          "600": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuGKYMZhrib2Bg-4.ttf",
+          "700": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuFuYMZhrib2Bg-4.ttf",
+          "800": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuDyYMZhrib2Bg-4.ttf",
+          "900": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuBWYMZhrib2Bg-4.ttf",
+          "regular": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZhrib2Bg-4.ttf"
+        },
+        "menu": "https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZlhjQ.ttf",
+        "lastModified": "2023-09-14",
+        "family": "Inter",
+        "variants": ["100", "200", "300", "regular", "500", "600", "700", "800", "900"],
+        "kind": "webfonts#webfont",
+        "version": "v13"
+      }
+    ],
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-c6d272b73f964ef4a38e5c602be2336f",
+        "component": {
+          "name": "Hero",
+          "options": {
+            "title": "BIOMAQ a renovação da interestelar",
+            "imageUrl": "https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2F26e2ce6d56fd916b0bd928775fa309156d14591e"
+          },
+          "isRSC": null
+        },
+        "responsiveStyles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "position": "relative",
+            "flexShrink": "0",
+            "boxSizing": "border-box",
+            "marginTop": "0 "
+          }
+        }
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "tagName": "div",
+        "id": "builder-91ac9d6100994642b355b1dae011ebea",
+        "children": [
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "tagName": "div",
+            "id": "builder-9fd9efb23a6644318ab1760cb403cda1",
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-3b05fe7b63184f8c89347e6003cb0759",
+                "component": {
+                  "name": "Text",
+                  "options": {
+                    "text": "<span style=\"white-space-collapse: preserve;\">👉 Nesta aula</span>"
+                  },
+                  "isRSC": null
+                },
+                "responsiveStyles": {
+                  "large": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "position": "relative",
+                    "flexShrink": "0",
+                    "boxSizing": "border-box",
+                    "marginTop": "20px",
+                    "lineHeight": "normal",
+                    "height": "auto",
+                    "fontSize": "36px",
+                    "fontWeight": "700",
+                    "fontFamily": "Inter, sans-serif",
+                    "color": "rgba(79, 70, 229, 1)",
+                    "textAlign": "center"
+                  }
+                }
+              },
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-9f33a0c07dd346b8bed3e4c4b3aeaa45",
+                "component": {
+                  "name": "Text",
+                  "options": {
+                    "text": "<span style=\"white-space-collapse: preserve;\">Vamos conversar sobre:</span>"
+                  },
+                  "isRSC": null
+                },
+                "responsiveStyles": {
+                  "large": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "position": "relative",
+                    "flexShrink": "0",
+                    "boxSizing": "border-box",
+                    "marginTop": "20px",
+                    "lineHeight": "normal",
+                    "height": "auto",
+                    "fontWeight": "700",
+                    "fontSize": "24px",
+                    "color": "rgba(55, 55, 55, 1)",
+                    "textAlign": "center"
+                  }
+                }
+              },
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-7fad499235e54cc8b165d0b79ff72fed",
+                "component": {
+                  "name": "Text",
+                  "options": {
+                    "text": "<p>Uma definição conceitual para o que é ENERGIA; </p><p>Entender como a ENERGIA faz parte do universo e da vida no planeta.</p>"
+                  },
+                  "isRSC": null
+                },
+                "responsiveStyles": {
+                  "large": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "position": "relative",
+                    "flexShrink": "0",
+                    "boxSizing": "border-box",
+                    "marginTop": "16px",
+                    "lineHeight": "normal",
+                    "height": "auto",
+                    "fontSize": "18px",
+                    "color": "rgba(55, 55, 55, 1)",
+                    "textAlign": "center"
+                  }
+                }
+              },
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-34ad3bb063a8405cbfb3ee3d249f5d38",
+                "component": {
+                  "name": "ConcludeScorm",
+                  "options": {},
+                  "isRSC": null
+                },
+                "responsiveStyles": {
+                  "large": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "position": "relative",
+                    "flexShrink": "0",
+                    "boxSizing": "border-box",
+                    "marginTop": "20px"
+                  }
+                }
+              }
+            ],
+            "responsiveStyles": {
+              "large": {
+                "display": "flex",
+                "flexDirection": "column",
+                "position": "relative",
+                "flexShrink": "0",
+                "boxSizing": "border-box",
+                "marginTop": "20px",
+                "height": "auto",
+                "maxWidth": "580px",
+                "marginLeft": "auto",
+                "marginRight": "auto",
+                "width": "100%",
+                "paddingBottom": "30px",
+                "textAlign": "center",
+                "paddingLeft": "20px",
+                "paddingRight": "20px"
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "tagName": "div",
+            "id": "builder-ca7be7a3e02b41878aaf70c18ea649d6",
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "tagName": "div",
+                "id": "builder-921d19195ecb44c3ad87bcf576fc58f2",
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-5666dc6c572b4c16ac2250a454ca70bd",
+                    "component": {
+                      "name": "CarouselCard",
+                      "options": {
+                        "layout": "1:1",
+                        "items": [
+                          {
+                            "imgSrc": "./imgs/core/placeholder.png",
+                            "title": "Titulo",
+                            "content": "Você está começando o Projeto Biomaq e irá conhecer uma importante área da Ciência: a Física e iremos trilhar esse conhecimento falando sobre a ENERGIA!"
+                          },
+                          {
+                            "imgSrc": "./imgs/core/placeholder.png",
+                            "title": "Titulo",
+                            "content": "Você está começando o Projeto Biomaq e irá conhecer uma importante área da Ciência: a Física e iremos trilhar esse conhecimento falando sobre a ENERGIA!"
+                          }
+                        ]
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "marginTop": "20px"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-5bb09b8449384a51862cd45f4849bf95",
+                    "component": {
+                      "name": "Image",
+                      "options": {
+                        "image": "https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2F88f2c42a34a848fa8a1a6387a1cbe6d2",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center",
+                        "lazy": false,
+                        "fitContent": true,
+                        "aspectRatio": 0.35,
+                        "lockAspectRatio": false,
+                        "height": 350,
+                        "width": 772
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "marginTop": "20px",
+                        "width": "100%",
+                        "minHeight": "20px",
+                        "minWidth": "20px",
+                        "overflow": "hidden",
+                        "borderRadius": "16px"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-e87fe86b50ce45d9a3118c4d2d9320f3",
+                    "component": {
+                      "name": "Text",
+                      "options": {
+                        "text": "<p><span style=\"white-space-collapse: preserve;\">Você está começando o Projeto Biomaq e irá conhecer uma importante área da Ciência: a Física e iremos trilhar esse conhecimento falando sobre a ENERGIA!</span></p>"
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "lineHeight": "normal",
+                        "height": "auto",
+                        "fontSize": "18px",
+                        "color": "rgba(55, 55, 55, 1)",
+                        "marginTop": "16px"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-d6b538917f814c25823497add21ea69a",
+                    "component": {
+                      "name": "Text",
+                      "options": {
+                        "text": "<span style=\"white-space-collapse: preserve;\">Vamos conversar sobre:</span>"
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "marginTop": "20px",
+                        "lineHeight": "normal",
+                        "height": "auto",
+                        "fontWeight": "700",
+                        "fontSize": "24px",
+                        "color": "rgba(55, 55, 55, 1)"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "tagName": "div",
+                    "id": "builder-44078872a02946d393523003065cede3",
+                    "children": [
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-01a5a68667954a66b59e347391daab76",
+                        "component": {
+                          "name": "Text",
+                          "options": {
+                            "text": "<span style=\"white-space-collapse: preserve;\">“Na natureza nada se perde, nada se criatudo se transforma”<br />Antoine-Laurent de Lavoisier (1743 – 1794)</span>"
+                          },
+                          "isRSC": null
+                        },
+                        "responsiveStyles": {
+                          "large": {
+                            "display": "flex",
+                            "flexDirection": "column",
+                            "position": "relative",
+                            "flexShrink": "0",
+                            "boxSizing": "border-box",
+                            "marginTop": "0px",
+                            "lineHeight": "normal",
+                            "height": "auto",
+                            "fontWeight": "700",
+                            "fontSize": "24px",
+                            "color": "rgba(255, 255, 255, 1)",
+                            "marginLeft": "auto",
+                            "marginRight": "auto",
+                            "textAlign": "center"
+                          }
+                        }
+                      }
+                    ],
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "marginTop": "20px",
+                        "height": "auto",
+                        "paddingBottom": "30px",
+                        "backgroundColor": "rgba(79, 70, 229, 1)",
+                        "borderRadius": "16px",
+                        "overflow": "hidden",
+                        "paddingLeft": "20px",
+                        "paddingRight": "20px",
+                        "paddingTop": "21px"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-1fc5fed3e452437f969ee94e22f0a159",
+                    "component": {
+                      "name": "Columns",
+                      "options": {
+                        "columns": [
+                          {
+                            "blocks": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-afb00bbf825947adb26c243424966423",
+                                "component": {
+                                  "name": "CardBuildIo",
+                                  "options": {
+                                    "title": "Biomaq nas escolas",
+                                    "description": "<p>Você está começando o Projeto Biomaq e irá conhecer uma importante área da Ciência: a Física e iremos trilhar esse conhecimento falando sobre a ENERGIA!</p>",
+                                    "imageUrl": "https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2F2750dab29ba34f93826ac8f0b3b06d05"
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "marginTop": "20px"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "blocks": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-248d468253ff4f7694f6d5494ccd7711",
+                                "component": {
+                                  "name": "CardBuildIo",
+                                  "options": {
+                                    "title": "Biomaq no mundo",
+                                    "description": "<p>Você está começando o Projeto Biomaq e irá conhecer uma importante área da Ciência: a Física e iremos trilhar esse conhecimento falando sobre a ENERGIA!</p>",
+                                    "imageUrl": "https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2Fdc5e06f118674424941d4f1ef8e57a3d"
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "marginTop": "20px",
+                                    "height": "auto",
+                                    "flexGrow": "0"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "space": 20,
+                        "stackColumnsAt": "mobile"
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "marginTop": "20px",
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "alignItems": "stretch"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "tagName": "div",
+                    "id": "builder-7e8d6cf909a74b91a13c27300e2f40a6",
+                    "meta": {
+                      "previousId": "builder-adc6fc102e374941be8621b383020b74"
+                    },
+                    "children": [
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-e28eae7d679a47fba853bc37e007e800",
+                        "meta": {
+                          "previousId": "builder-eb2d14ad0a1342f295300883a44eb73b"
+                        },
+                        "component": {
+                          "name": "Text",
+                          "options": {
+                            "text": "<span style=\"white-space-collapse: preserve;\">“Na natureza nada se perde, nada se criatudo se transforma”<br />Antoine-Laurent de Lavoisier (1743 – 1794)</span>"
+                          },
+                          "isRSC": null
+                        },
+                        "responsiveStyles": {
+                          "large": {
+                            "display": "flex",
+                            "flexDirection": "column",
+                            "position": "relative",
+                            "flexShrink": "0",
+                            "boxSizing": "border-box",
+                            "marginTop": "0px",
+                            "lineHeight": "normal",
+                            "height": "auto",
+                            "fontWeight": "700",
+                            "fontSize": "24px",
+                            "color": "rgba(255, 255, 255, 1)",
+                            "marginLeft": "auto",
+                            "marginRight": "auto",
+                            "textAlign": "center"
+                          }
+                        }
+                      }
+                    ],
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "marginTop": "20px",
+                        "height": "auto",
+                        "paddingBottom": "30px",
+                        "backgroundColor": "rgba(79, 70, 229, 1)",
+                        "borderRadius": "16px",
+                        "overflow": "hidden",
+                        "paddingLeft": "20px",
+                        "paddingRight": "20px",
+                        "paddingTop": "21px"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-9fcd57d436cb4f78af02306336808684",
+                    "component": {
+                      "name": "AccordionContained",
+                      "options": {
+                        "accordionList": [
+                          {
+                            "blocks": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-7e71c398f2a54374841316420cd7034b",
+                                "meta": {
+                                  "previousId": "builder-344372c04cd84b15a4d28afdc86913f6"
+                                },
+                                "component": {
+                                  "name": "Columns",
+                                  "options": {
+                                    "columns": [
+                                      {
+                                        "blocks": [
+                                          {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "@version": 2,
+                                            "id": "builder-f2997fc816de4a32b1c7e4dc2027bfeb",
+                                            "component": {
+                                              "name": "Image",
+                                              "options": {
+                                                "image": "https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2Fdc5e06f118674424941d4f1ef8e57a3d",
+                                                "backgroundSize": "cover",
+                                                "backgroundPosition": "center",
+                                                "lazy": false,
+                                                "fitContent": true,
+                                                "aspectRatio": 0.666,
+                                                "lockAspectRatio": false,
+                                                "height": 1253,
+                                                "width": 1880
+                                              },
+                                              "isRSC": null
+                                            },
+                                            "responsiveStyles": {
+                                              "large": {
+                                                "display": "flex",
+                                                "flexDirection": "column",
+                                                "position": "relative",
+                                                "flexShrink": "0",
+                                                "boxSizing": "border-box",
+                                                "marginTop": "20px",
+                                                "width": "100%",
+                                                "minHeight": "20px",
+                                                "minWidth": "20px",
+                                                "overflow": "hidden",
+                                                "backgroundImage": "url(https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2Fdc5e06f118674424941d4f1ef8e57a3d)",
+                                                "backgroundRepeat": "no-repeat",
+                                                "backgroundPosition": "center",
+                                                "backgroundSize": "cover",
+                                                "borderRadius": "20px",
+                                                "backgroundColor": "rgba(107, 39, 39, 1)"
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "width": 33.333
+                                      },
+                                      {
+                                        "blocks": [
+                                          {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "@version": 2,
+                                            "tagName": "div",
+                                            "id": "builder-2512a710635343709138bb5e3602f51b",
+                                            "children": [
+                                              {
+                                                "@type": "@builder.io/sdk:Element",
+                                                "@version": 2,
+                                                "id": "builder-7fcdf66b1dfc46c196d214b47dbfb33b",
+                                                "component": {
+                                                  "name": "Text",
+                                                  "options": {
+                                                    "text": "<p><span style=\"white-space-collapse: preserve;\">Você está começando o Projeto Biomaq e irá conhecer uma importante área da Ciência: a Física e iremos trilhar esse conhecimento falando sobre a ENERGIA!</span></p>"
+                                                  },
+                                                  "isRSC": null
+                                                },
+                                                "responsiveStyles": {
+                                                  "large": {
+                                                    "display": "flex",
+                                                    "flexDirection": "column",
+                                                    "position": "relative",
+                                                    "flexShrink": "0",
+                                                    "boxSizing": "border-box",
+                                                    "lineHeight": "normal",
+                                                    "height": "auto",
+                                                    "fontSize": "18px",
+                                                    "color": "rgba(55, 55, 55, 1)",
+                                                    "marginTop": "16px",
+                                                    "textAlign": "left"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "@type": "@builder.io/sdk:Element",
+                                                "@version": 2,
+                                                "id": "builder-076bc3debaa840a488126984b395b6e4",
+                                                "component": {
+                                                  "name": "Text",
+                                                  "options": {
+                                                    "text": "<p><span style=\"white-space-collapse: preserve; color: rgb(79, 70, 229);\"><strong>Observe e tente pensar: O que há em comum nas imagens?!</strong></span></p>"
+                                                  },
+                                                  "isRSC": null
+                                                },
+                                                "responsiveStyles": {
+                                                  "large": {
+                                                    "display": "flex",
+                                                    "flexDirection": "column",
+                                                    "position": "relative",
+                                                    "flexShrink": "0",
+                                                    "boxSizing": "border-box",
+                                                    "lineHeight": "normal",
+                                                    "height": "auto",
+                                                    "fontSize": "18px",
+                                                    "color": "rgba(55, 55, 55, 1)",
+                                                    "marginTop": "16px",
+                                                    "textAlign": "left"
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "responsiveStyles": {
+                                              "large": {
+                                                "display": "flex",
+                                                "flexDirection": "column",
+                                                "position": "relative",
+                                                "flexShrink": "0",
+                                                "boxSizing": "border-box",
+                                                "marginTop": "auto",
+                                                "height": "auto",
+                                                "marginBottom": "auto"
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "width": 66.667
+                                      }
+                                    ],
+                                    "space": 20,
+                                    "stackColumnsAt": "mobile",
+                                    "reverseColumnsWhenStacked": false
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "marginTop": "0px"
+                                  }
+                                }
+                              }
+                            ],
+                            "accordionName": "Biomaq e a filosofia"
+                          },
+                          {
+                            "blocks": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-88643213f9214e8991c89b1e405f2085",
+                                "meta": {
+                                  "previousId": "builder-3452dd5d9538405db1eefe8f037d519b"
+                                },
+                                "component": {
+                                  "name": "Text",
+                                  "options": {
+                                    "text": "Enter some text..."
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "marginTop": "20px",
+                                    "lineHeight": "normal",
+                                    "height": "auto"
+                                  }
+                                }
+                              },
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-9370e03ddb5b46ed98000b0b61cb4f3d",
+                                "meta": {
+                                  "previousId": "builder-2b762c7be9504caf9087f118a75efb17"
+                                },
+                                "component": {
+                                  "name": "Core:Button",
+                                  "options": {
+                                    "text": "Click me!",
+                                    "openLinkInNewTab": false
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "marginTop": "20px",
+                                    "appearance": "none",
+                                    "paddingTop": "15px",
+                                    "paddingBottom": "15px",
+                                    "paddingLeft": "25px",
+                                    "paddingRight": "25px",
+                                    "backgroundColor": "black",
+                                    "color": "white",
+                                    "borderRadius": "4px",
+                                    "textAlign": "center",
+                                    "cursor": "pointer"
+                                  }
+                                }
+                              }
+                            ],
+                            "accordionName": "Quando os astros se decompõe"
+                          },
+                          {
+                            "blocks": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-070ef57d92d74e9092450915f610079c",
+                                "meta": {
+                                  "previousId": "builder-3452dd5d9538405db1eefe8f037d519b"
+                                },
+                                "component": {
+                                  "name": "Text",
+                                  "options": {
+                                    "text": "Enter some text..."
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "marginTop": "20px",
+                                    "lineHeight": "normal",
+                                    "height": "auto"
+                                  }
+                                }
+                              },
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-f55b5f8b6ff14cbe817998fa9b8ecd03",
+                                "meta": {
+                                  "previousId": "builder-2b762c7be9504caf9087f118a75efb17"
+                                },
+                                "component": {
+                                  "name": "Core:Button",
+                                  "options": {
+                                    "text": "Click me!",
+                                    "openLinkInNewTab": false
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "marginTop": "20px",
+                                    "appearance": "none",
+                                    "paddingTop": "15px",
+                                    "paddingBottom": "15px",
+                                    "paddingLeft": "25px",
+                                    "paddingRight": "25px",
+                                    "backgroundColor": "black",
+                                    "color": "white",
+                                    "borderRadius": "4px",
+                                    "textAlign": "center",
+                                    "cursor": "pointer"
+                                  }
+                                }
+                              }
+                            ],
+                            "accordionName": "teste"
+                          }
+                        ]
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "marginTop": "20px"
+                      }
+                    }
+                  }
+                ],
+                "responsiveStyles": {
+                  "large": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "position": "relative",
+                    "flexShrink": "0",
+                    "boxSizing": "border-box",
+                    "marginTop": "0px",
+                    "height": "auto",
+                    "maxWidth": "780px",
+                    "marginLeft": "auto",
+                    "marginRight": "auto",
+                    "width": "100%",
+                    "paddingLeft": "20px",
+                    "paddingRight": "20px"
+                  }
+                }
+              }
+            ],
+            "responsiveStyles": {
+              "large": {
+                "display": "flex",
+                "flexDirection": "column",
+                "position": "relative",
+                "flexShrink": "0",
+                "boxSizing": "border-box",
+                "marginTop": "20px",
+                "height": "auto",
+                "width": "100%",
+                "backgroundColor": "rgba(228, 232, 239, 1)",
+                "paddingTop": "40px",
+                "paddingBottom": "40px"
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-79394d226d77455a9b65c6b0301bb33c",
+            "component": {
+              "name": "Core:Section",
+              "options": {
+                "maxWidth": 1200,
+                "lazyLoad": false
+              },
+              "isRSC": null
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "tagName": "div",
+                "id": "builder-04d4674743c1492385595df005695cae",
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-0b5c3afb5d9046c69dac85947b6873c2",
+                    "component": {
+                      "name": "Text",
+                      "options": {
+                        "text": "<span style=\"white-space-collapse: preserve; color: rgb(223, 255, 90);\">Desafio:</span>"
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "marginTop": "20px",
+                        "lineHeight": "normal",
+                        "height": "auto",
+                        "fontSize": "36px",
+                        "fontWeight": "700",
+                        "fontFamily": "Inter, sans-serif",
+                        "color": "rgba(223, 255, 90, 1)",
+                        "textAlign": "center"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-3604ae40babb42a39d8616721dd98087",
+                    "component": {
+                      "name": "Text",
+                      "options": {
+                        "text": "<p><span style=\"white-space-collapse: preserve; color: rgb(255, 255, 255);\">Quando falamos em energia, a que ela está associada?<br />Para movimentar-se é preciso energia?<br />Para carregar seu celular precisamos de energia?</span></p>"
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "lineHeight": "normal",
+                        "height": "auto",
+                        "fontSize": "18px",
+                        "color": "rgba(55, 55, 55, 1)",
+                        "marginTop": "16px",
+                        "textAlign": "center"
+                      }
+                    }
+                  }
+                ],
+                "responsiveStyles": {
+                  "large": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "position": "relative",
+                    "flexShrink": "0",
+                    "boxSizing": "border-box",
+                    "marginTop": "auto",
+                    "maxWidth": "580px",
+                    "marginLeft": "auto",
+                    "marginRight": "auto",
+                    "width": "100%",
+                    "paddingBottom": "30px",
+                    "paddingLeft": "20px",
+                    "paddingRight": "20px",
+                    "marginBottom": "auto"
+                  }
+                }
+              }
+            ],
+            "responsiveStyles": {
+              "large": {
+                "display": "flex",
+                "flexDirection": "column",
+                "position": "relative",
+                "flexShrink": "0",
+                "boxSizing": "border-box",
+                "marginTop": "0px",
+                "paddingLeft": "20px",
+                "paddingRight": "20px",
+                "paddingTop": "20px",
+                "paddingBottom": "20px",
+                "minHeight": "500px",
+                "backgroundImage": "url(https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2F4e8fdc1704f74cc89363ed23ff859540)",
+                "backgroundRepeat": "no-repeat",
+                "backgroundPosition": "center",
+                "backgroundSize": "cover",
+                "width": "100%"
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "tagName": "div",
+            "id": "builder-8a2f9ba14ef84d6e9ca592a8a432a422",
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "tagName": "div",
+                "id": "builder-39077d650f84406ba63403f812a8a6a8",
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-45908cba77d84dbbb216740e5c38ac89",
+                    "component": {
+                      "name": "Columns",
+                      "options": {
+                        "columns": [
+                          {
+                            "blocks": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-44004ecee6eb44f08fbc0c84ba162d5f",
+                                "component": {
+                                  "name": "Image",
+                                  "options": {
+                                    "image": "https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2Fe8682c27ee1c40dd9240a835e0b1a449",
+                                    "backgroundSize": "cover",
+                                    "backgroundPosition": "center",
+                                    "lazy": false,
+                                    "fitContent": true,
+                                    "aspectRatio": 0.479,
+                                    "lockAspectRatio": false,
+                                    "height": 180,
+                                    "width": 376
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "width": "100%",
+                                    "minHeight": "20px",
+                                    "minWidth": "20px",
+                                    "overflow": "hidden"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "blocks": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-ac2cc3dacc25495093d09d8a2693339a",
+                                "component": {
+                                  "name": "Text",
+                                  "options": {
+                                    "text": "<p><span style=\"white-space-collapse: preserve;\">A ENERGIA está no universo e fazparte de todas as coisas que existem, principalmentenosseresvivos.</span></p>"
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "lineHeight": "normal",
+                                    "height": "auto",
+                                    "fontSize": "18px",
+                                    "color": "rgba(255, 255, 255, 1)",
+                                    "marginTop": "auto",
+                                    "paddingTop": "20px",
+                                    "paddingLeft": "20px",
+                                    "paddingBottom": "20px",
+                                    "paddingRight": "20px",
+                                    "marginBottom": "auto"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "space": 20,
+                        "stackColumnsAt": "mobile",
+                        "reverseColumnsWhenStacked": false
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "marginTop": "0px",
+                        "flexDirection": "column",
+                        "display": "flex"
+                      }
+                    }
+                  }
+                ],
+                "responsiveStyles": {
+                  "large": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "position": "relative",
+                    "flexShrink": "0",
+                    "boxSizing": "border-box",
+                    "marginTop": "20px",
+                    "height": "auto",
+                    "paddingBottom": "0px",
+                    "backgroundColor": "rgba(79, 70, 229, 1)",
+                    "borderRadius": "16px",
+                    "overflow": "hidden",
+                    "paddingTop": "0px"
+                  }
+                }
+              }
+            ],
+            "responsiveStyles": {
+              "large": {
+                "display": "flex",
+                "flexDirection": "column",
+                "position": "relative",
+                "flexShrink": "0",
+                "boxSizing": "border-box",
+                "marginTop": "20px",
+                "height": "auto",
+                "maxWidth": "780px",
+                "marginLeft": "auto",
+                "marginRight": "auto",
+                "width": "100%",
+                "paddingBottom": "30px",
+                "paddingLeft": "20px",
+                "paddingRight": "20px"
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "id": "builder-0fa3c5b4ef9e483a95a06db1d0c9db95",
+            "component": {
+              "name": "Core:Section",
+              "options": {
+                "maxWidth": 1200,
+                "lazyLoad": false
+              },
+              "isRSC": null
+            },
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "tagName": "div",
+                "id": "builder-b9211bc537d341c095ea117a8151848d",
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-1e8d15b250c1488285f26d43b709bd5d",
+                    "component": {
+                      "name": "Text",
+                      "options": {
+                        "text": "<p><span style=\"white-space-collapse: preserve;\">Você está começando o Projeto Biomaq e irá conhecer uma importante área da Ciência: a Física e iremos trilhar esse conhecimento falando sobre a ENERGIA!</span></p>"
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "lineHeight": "normal",
+                        "height": "auto",
+                        "fontSize": "18px",
+                        "color": "rgba(55, 55, 55, 1)",
+                        "marginTop": "16px",
+                        "textAlign": "center"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-43550fa6563141c1888022216811ba54",
+                    "component": {
+                      "name": "Text",
+                      "options": {
+                        "text": "<p><span style=\"white-space-collapse: preserve; color: rgb(79, 70, 229);\"><strong>Observe e tente pensar: O que há em comum nas imagens?!</strong></span></p>"
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "lineHeight": "normal",
+                        "height": "auto",
+                        "fontSize": "18px",
+                        "color": "rgba(55, 55, 55, 1)",
+                        "marginTop": "16px",
+                        "textAlign": "center"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-51f1e0ef91d24d4796ddb1e55d016618",
+                    "component": {
+                      "name": "Columns",
+                      "options": {
+                        "columns": [
+                          {
+                            "blocks": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-34e31e42619d4cffb57223b8a1fafdab",
+                                "component": {
+                                  "name": "Image",
+                                  "options": {
+                                    "image": "https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2F624896dbb09d439bac11d4f3de294c22",
+                                    "backgroundSize": "cover",
+                                    "backgroundPosition": "center",
+                                    "lazy": false,
+                                    "fitContent": true,
+                                    "aspectRatio": 1,
+                                    "lockAspectRatio": false,
+                                    "height": 1300,
+                                    "width": 867
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "marginTop": "20px",
+                                    "width": "100%",
+                                    "minWidth": "20px",
+                                    "overflow": "hidden",
+                                    "backgroundImage": "url(https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2Fdc5e06f118674424941d4f1ef8e57a3d)",
+                                    "backgroundRepeat": "no-repeat",
+                                    "backgroundPosition": "center",
+                                    "backgroundSize": "cover",
+                                    "borderRadius": "999px",
+                                    "height": "auto",
+                                    "flexGrow": "0"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "blocks": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-fae5288af0294c5888569daa823f5df5",
+                                "component": {
+                                  "name": "Image",
+                                  "options": {
+                                    "image": "https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2Fdc5e06f118674424941d4f1ef8e57a3d",
+                                    "backgroundSize": "cover",
+                                    "backgroundPosition": "center",
+                                    "lazy": false,
+                                    "fitContent": true,
+                                    "aspectRatio": 1,
+                                    "lockAspectRatio": false,
+                                    "height": 1253,
+                                    "width": 1880
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "marginTop": "20px",
+                                    "width": "100%",
+                                    "minHeight": "20px",
+                                    "minWidth": "20px",
+                                    "overflow": "hidden",
+                                    "backgroundImage": "url(https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2F3038eb9f49d34b0b88d5e048767f0ff5)",
+                                    "backgroundRepeat": "no-repeat",
+                                    "backgroundPosition": "center",
+                                    "backgroundSize": "cover",
+                                    "borderRadius": "999px",
+                                    "height": "auto",
+                                    "flexGrow": "0"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "blocks": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-de33fd1218f142cab3bfcaf88791d22e",
+                                "component": {
+                                  "name": "Image",
+                                  "options": {
+                                    "image": "https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2F3038eb9f49d34b0b88d5e048767f0ff5",
+                                    "backgroundSize": "cover",
+                                    "backgroundPosition": "center",
+                                    "lazy": false,
+                                    "fitContent": true,
+                                    "aspectRatio": 1,
+                                    "lockAspectRatio": false,
+                                    "height": 1300,
+                                    "width": 865
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "marginTop": "20px",
+                                    "width": "100%",
+                                    "minHeight": "20px",
+                                    "minWidth": "20px",
+                                    "overflow": "hidden",
+                                    "backgroundImage": "url(https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2F624896dbb09d439bac11d4f3de294c22)",
+                                    "backgroundRepeat": "no-repeat",
+                                    "backgroundPosition": "center",
+                                    "backgroundSize": "cover",
+                                    "borderRadius": "999px",
+                                    "height": "auto",
+                                    "flexGrow": "0"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "space": 20,
+                        "stackColumnsAt": "never",
+                        "reverseColumnsWhenStacked": false
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "marginTop": "20px"
+                      }
+                    }
+                  }
+                ],
+                "responsiveStyles": {
+                  "large": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "position": "relative",
+                    "flexShrink": "0",
+                    "boxSizing": "border-box",
+                    "marginTop": "20px",
+                    "height": "auto",
+                    "maxWidth": "580px",
+                    "marginLeft": "auto",
+                    "marginRight": "auto",
+                    "width": "100%",
+                    "paddingBottom": "30px",
+                    "paddingLeft": "20px",
+                    "paddingRight": "20px",
+                    "paddingTop": "0"
+                  }
+                }
+              }
+            ],
+            "responsiveStyles": {
+              "large": {
+                "display": "flex",
+                "flexDirection": "column",
+                "position": "relative",
+                "flexShrink": "0",
+                "boxSizing": "border-box",
+                "marginTop": "0px",
+                "minHeight": "100px"
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "tagName": "div",
+            "id": "builder-2669ddd4777e4d89b44ab0dc8126fd00",
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "id": "builder-0f42271c2525483bb935a44a805966bf",
+                "component": {
+                  "name": "Columns",
+                  "options": {
+                    "columns": [
+                      {
+                        "blocks": [
+                          {
+                            "@type": "@builder.io/sdk:Element",
+                            "@version": 2,
+                            "id": "builder-0bd28262e83f416490c609d582cac04c",
+                            "component": {
+                              "name": "Image",
+                              "options": {
+                                "image": "https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2Fdc5e06f118674424941d4f1ef8e57a3d",
+                                "backgroundSize": "cover",
+                                "backgroundPosition": "center",
+                                "lazy": false,
+                                "fitContent": true,
+                                "aspectRatio": 0.666,
+                                "lockAspectRatio": false,
+                                "height": 1253,
+                                "width": 1880
+                              },
+                              "isRSC": null
+                            },
+                            "responsiveStyles": {
+                              "large": {
+                                "display": "flex",
+                                "flexDirection": "column",
+                                "position": "relative",
+                                "flexShrink": "0",
+                                "boxSizing": "border-box",
+                                "marginTop": "20px",
+                                "width": "100%",
+                                "minHeight": "20px",
+                                "minWidth": "20px",
+                                "overflow": "hidden",
+                                "backgroundImage": "url(https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2Fdc5e06f118674424941d4f1ef8e57a3d)",
+                                "backgroundRepeat": "no-repeat",
+                                "backgroundPosition": "center",
+                                "backgroundSize": "cover",
+                                "borderRadius": "20px",
+                                "backgroundColor": "rgba(107, 39, 39, 1)"
+                              }
+                            }
+                          }
+                        ],
+                        "width": 33.333333
+                      },
+                      {
+                        "blocks": [
+                          {
+                            "@type": "@builder.io/sdk:Element",
+                            "@version": 2,
+                            "tagName": "div",
+                            "id": "builder-a5f6422ab6c346f48635a54f4eca2da2",
+                            "children": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-0992dfa9b03b47e6b9377fb286fab123",
+                                "component": {
+                                  "name": "Text",
+                                  "options": {
+                                    "text": "<p><span style=\"white-space-collapse: preserve;\">Você está começando o Projeto Biomaq e irá conhecer uma importante área da Ciência: a Física e iremos trilhar esse conhecimento falando sobre a ENERGIA!</span></p>"
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "lineHeight": "normal",
+                                    "height": "auto",
+                                    "fontSize": "18px",
+                                    "color": "rgba(55, 55, 55, 1)",
+                                    "marginTop": "16px",
+                                    "textAlign": "left"
+                                  }
+                                }
+                              },
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-b723db26b5604ba595199ce83e524c39",
+                                "component": {
+                                  "name": "Text",
+                                  "options": {
+                                    "text": "<p><span style=\"white-space-collapse: preserve; color: rgb(79, 70, 229);\"><strong>Observe e tente pensar: O que há em comum nas imagens?!</strong></span></p>"
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "lineHeight": "normal",
+                                    "height": "auto",
+                                    "fontSize": "18px",
+                                    "color": "rgba(55, 55, 55, 1)",
+                                    "marginTop": "16px",
+                                    "textAlign": "left"
+                                  }
+                                }
+                              }
+                            ],
+                            "responsiveStyles": {
+                              "large": {
+                                "display": "flex",
+                                "flexDirection": "column",
+                                "position": "relative",
+                                "flexShrink": "0",
+                                "boxSizing": "border-box",
+                                "marginTop": "auto",
+                                "height": "auto",
+                                "marginBottom": "auto"
+                              }
+                            }
+                          }
+                        ],
+                        "width": 66.666666
+                      }
+                    ],
+                    "space": 20,
+                    "stackColumnsAt": "mobile",
+                    "reverseColumnsWhenStacked": false
+                  },
+                  "isRSC": null
+                },
+                "responsiveStyles": {
+                  "large": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "position": "relative",
+                    "flexShrink": "0",
+                    "boxSizing": "border-box",
+                    "marginTop": "20px"
+                  }
+                }
+              }
+            ],
+            "responsiveStyles": {
+              "large": {
+                "display": "flex",
+                "flexDirection": "column",
+                "position": "relative",
+                "flexShrink": "0",
+                "boxSizing": "border-box",
+                "marginTop": "20px",
+                "height": "auto",
+                "maxWidth": "780px",
+                "marginLeft": "auto",
+                "marginRight": "auto",
+                "width": "100%",
+                "paddingBottom": "30px",
+                "paddingRight": "20px",
+                "paddingLeft": "20px"
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "tagName": "div",
+            "id": "builder-bb4f4af21abc4f77a53d9504bff778b7",
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "tagName": "div",
+                "id": "builder-e670437b87804adf86c11179b51af23c",
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-97a5764160044927830f3a70aa3c638d",
+                    "component": {
+                      "name": "Columns",
+                      "options": {
+                        "columns": [
+                          {
+                            "blocks": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-5d9afe692cbf45d999e34526ca6a1149",
+                                "component": {
+                                  "name": "Image",
+                                  "options": {
+                                    "image": "https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2Fdc5e06f118674424941d4f1ef8e57a3d",
+                                    "backgroundSize": "cover",
+                                    "backgroundPosition": "center",
+                                    "lazy": false,
+                                    "fitContent": true,
+                                    "aspectRatio": 0.666,
+                                    "lockAspectRatio": false,
+                                    "height": 1253,
+                                    "width": 1880
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "marginTop": "20px",
+                                    "width": "100%",
+                                    "minHeight": "20px",
+                                    "minWidth": "20px",
+                                    "overflow": "hidden",
+                                    "backgroundImage": "url(https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2Fdc5e06f118674424941d4f1ef8e57a3d)",
+                                    "backgroundRepeat": "no-repeat",
+                                    "backgroundPosition": "center",
+                                    "backgroundSize": "cover",
+                                    "borderRadius": "20px",
+                                    "backgroundColor": "rgba(107, 39, 39, 1)"
+                                  }
+                                }
+                              },
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-d52f9242358c4269b0bad3f51929d1dc",
+                                "component": {
+                                  "name": "Text",
+                                  "options": {
+                                    "text": "<p><span style=\"white-space-collapse: preserve;\">Você está começando o Projeto Biomaq e irá conhecer uma importante área da Ciência: a Física e iremos trilhar esse conhecimento falando sobre a ENERGIA!</span></p>"
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "lineHeight": "normal",
+                                    "height": "auto",
+                                    "fontSize": "18px",
+                                    "color": "rgba(55, 55, 55, 1)",
+                                    "marginTop": "16px",
+                                    "textAlign": "left"
+                                  }
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "blocks": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-b7dbd70f7aa94cfbbb9fef008427fdd3",
+                                "component": {
+                                  "name": "Image",
+                                  "options": {
+                                    "image": "https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2Fdc5e06f118674424941d4f1ef8e57a3d",
+                                    "backgroundSize": "cover",
+                                    "backgroundPosition": "center",
+                                    "lazy": false,
+                                    "fitContent": true,
+                                    "aspectRatio": 0.666,
+                                    "lockAspectRatio": false,
+                                    "height": 1253,
+                                    "width": 1880
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "marginTop": "20px",
+                                    "width": "100%",
+                                    "minHeight": "20px",
+                                    "minWidth": "20px",
+                                    "overflow": "hidden",
+                                    "backgroundImage": "url(https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2Fdc5e06f118674424941d4f1ef8e57a3d)",
+                                    "backgroundRepeat": "no-repeat",
+                                    "backgroundPosition": "center",
+                                    "backgroundSize": "cover",
+                                    "borderRadius": "20px",
+                                    "backgroundColor": "rgba(107, 39, 39, 1)"
+                                  }
+                                }
+                              },
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "id": "builder-2f802f9d01314125b9a1441b1a5eb667",
+                                "component": {
+                                  "name": "Text",
+                                  "options": {
+                                    "text": "<p><span style=\"white-space-collapse: preserve;\">Você está começando o Projeto Biomaq e irá conhecer uma importante área da Ciência: a Física e iremos trilhar esse conhecimento falando sobre a ENERGIA!</span></p>"
+                                  },
+                                  "isRSC": null
+                                },
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "lineHeight": "normal",
+                                    "height": "auto",
+                                    "fontSize": "18px",
+                                    "color": "rgba(55, 55, 55, 1)",
+                                    "marginTop": "16px",
+                                    "textAlign": "left"
+                                  }
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "space": 20,
+                        "stackColumnsAt": "mobile",
+                        "reverseColumnsWhenStacked": false
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "marginTop": "0px"
+                      }
+                    }
+                  }
+                ],
+                "responsiveStyles": {
+                  "large": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "position": "relative",
+                    "flexShrink": "0",
+                    "boxSizing": "border-box",
+                    "marginTop": "20px",
+                    "height": "auto",
+                    "maxWidth": "960px",
+                    "marginLeft": "auto",
+                    "marginRight": "auto",
+                    "width": "100%",
+                    "paddingLeft": "20px",
+                    "paddingRight": "20px",
+                    "paddingBottom": "30px"
+                  }
+                }
+              },
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "tagName": "div",
+                "id": "builder-591f452efc014af99beeef6410772847",
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-e580241c54654ae4b51d84e984716a1a",
+                    "component": {
+                      "name": "Image",
+                      "options": {
+                        "image": "https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2F97a15e3d7e644f4984b22c5d4084f43f",
+                        "backgroundSize": "cover",
+                        "backgroundPosition": "center",
+                        "lazy": false,
+                        "fitContent": true,
+                        "aspectRatio": 0.107,
+                        "lockAspectRatio": false,
+                        "height": 205,
+                        "width": 1920
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "marginTop": "-3px",
+                        "width": "100%",
+                        "minHeight": "20px",
+                        "minWidth": "20px",
+                        "overflow": "hidden"
+                      }
+                    }
+                  },
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "tagName": "div",
+                    "id": "builder-fe9b8e1ec14a4b19905e63aeffe285b3",
+                    "children": [
+                      {
+                        "@type": "@builder.io/sdk:Element",
+                        "@version": 2,
+                        "id": "builder-d92c31a942174b229c7d627a783b0725",
+                        "component": {
+                          "name": "Columns",
+                          "options": {
+                            "columns": [
+                              {
+                                "blocks": [
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-1d8349698685498394d6e9e6eb167762",
+                                    "component": {
+                                      "name": "Image",
+                                      "options": {
+                                        "image": "https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2Fdc5e06f118674424941d4f1ef8e57a3d",
+                                        "backgroundSize": "cover",
+                                        "backgroundPosition": "center",
+                                        "lazy": false,
+                                        "fitContent": true,
+                                        "aspectRatio": 0.666,
+                                        "lockAspectRatio": false,
+                                        "height": 1253,
+                                        "width": 1880
+                                      },
+                                      "isRSC": null
+                                    },
+                                    "responsiveStyles": {
+                                      "large": {
+                                        "display": "flex",
+                                        "flexDirection": "column",
+                                        "position": "relative",
+                                        "flexShrink": "0",
+                                        "boxSizing": "border-box",
+                                        "marginTop": "20px",
+                                        "width": "100%",
+                                        "minHeight": "20px",
+                                        "minWidth": "20px",
+                                        "overflow": "hidden",
+                                        "backgroundImage": "url(https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2Fdc5e06f118674424941d4f1ef8e57a3d)",
+                                        "backgroundRepeat": "no-repeat",
+                                        "backgroundPosition": "center",
+                                        "backgroundSize": "cover",
+                                        "borderRadius": "20px",
+                                        "backgroundColor": "rgba(107, 39, 39, 1)"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "width": 33.333
+                              },
+                              {
+                                "blocks": [
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "tagName": "div",
+                                    "id": "builder-36c4e86d48ac4607a51b11efba2ad5d5",
+                                    "children": [
+                                      {
+                                        "@type": "@builder.io/sdk:Element",
+                                        "@version": 2,
+                                        "id": "builder-e91ff7fbe98d44c383aae73cceff74c2",
+                                        "component": {
+                                          "name": "Text",
+                                          "options": {
+                                            "text": "<p><span style=\"white-space-collapse: preserve;\">Você está começando o Projeto Biomaq e irá conhecer uma importante área da Ciência: a Física e iremos trilhar esse conhecimento falando sobre a ENERGIA!</span></p>"
+                                          },
+                                          "isRSC": null
+                                        },
+                                        "responsiveStyles": {
+                                          "large": {
+                                            "display": "flex",
+                                            "flexDirection": "column",
+                                            "position": "relative",
+                                            "flexShrink": "0",
+                                            "boxSizing": "border-box",
+                                            "lineHeight": "normal",
+                                            "height": "auto",
+                                            "fontSize": "18px",
+                                            "color": "rgba(55, 55, 55, 1)",
+                                            "marginTop": "16px",
+                                            "textAlign": "left"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "@type": "@builder.io/sdk:Element",
+                                        "@version": 2,
+                                        "id": "builder-fa07c20923d64f6a88cbd6228ea3ed46",
+                                        "component": {
+                                          "name": "Text",
+                                          "options": {
+                                            "text": "<p><span style=\"white-space-collapse: preserve; color: rgb(79, 70, 229);\"><strong>Observe e tente pensar: O que há em comum nas imagens?!</strong></span></p>"
+                                          },
+                                          "isRSC": null
+                                        },
+                                        "responsiveStyles": {
+                                          "large": {
+                                            "display": "flex",
+                                            "flexDirection": "column",
+                                            "position": "relative",
+                                            "flexShrink": "0",
+                                            "boxSizing": "border-box",
+                                            "lineHeight": "normal",
+                                            "height": "auto",
+                                            "fontSize": "18px",
+                                            "color": "rgba(55, 55, 55, 1)",
+                                            "marginTop": "16px",
+                                            "textAlign": "left"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "responsiveStyles": {
+                                      "large": {
+                                        "display": "flex",
+                                        "flexDirection": "column",
+                                        "position": "relative",
+                                        "flexShrink": "0",
+                                        "boxSizing": "border-box",
+                                        "marginTop": "auto",
+                                        "height": "auto",
+                                        "marginBottom": "auto"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "width": 66.667
+                              }
+                            ],
+                            "space": 20,
+                            "stackColumnsAt": "mobile",
+                            "reverseColumnsWhenStacked": false
+                          },
+                          "isRSC": null
+                        },
+                        "responsiveStyles": {
+                          "large": {
+                            "display": "flex",
+                            "flexDirection": "column",
+                            "position": "relative",
+                            "flexShrink": "0",
+                            "boxSizing": "border-box",
+                            "marginTop": "0px"
+                          }
+                        }
+                      }
+                    ],
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "marginTop": "20px",
+                        "height": "auto",
+                        "maxWidth": "780px",
+                        "marginLeft": "auto",
+                        "marginRight": "auto",
+                        "width": "100%",
+                        "paddingLeft": "20px",
+                        "paddingRight": "20px",
+                        "paddingBottom": "30px"
+                      }
+                    }
+                  }
+                ],
+                "responsiveStyles": {
+                  "large": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "position": "relative",
+                    "flexShrink": "0",
+                    "boxSizing": "border-box",
+                    "marginTop": "20px",
+                    "height": "auto",
+                    "backgroundColor": "rgba(223, 255, 90, 1)",
+                    "flexGrow": "0",
+                    "paddingBottom": "40px"
+                  }
+                }
+              }
+            ],
+            "responsiveStyles": {
+              "large": {
+                "display": "flex",
+                "flexDirection": "column",
+                "position": "relative",
+                "flexShrink": "0",
+                "boxSizing": "border-box",
+                "marginTop": "20px",
+                "height": "auto",
+                "width": "100%",
+                "paddingBottom": "0px",
+                "backgroundColor": "#f9fbfc"
+              }
+            }
+          },
+          {
+            "@type": "@builder.io/sdk:Element",
+            "@version": 2,
+            "tagName": "div",
+            "id": "builder-85031743310f4b27ad38d04385174683",
+            "children": [
+              {
+                "@type": "@builder.io/sdk:Element",
+                "@version": 2,
+                "tagName": "div",
+                "id": "builder-c8a803ae88944906ad27c02aab696fb4",
+                "children": [
+                  {
+                    "@type": "@builder.io/sdk:Element",
+                    "@version": 2,
+                    "id": "builder-31ffc70e484843b6b8146ecc73a3b3c0",
+                    "component": {
+                      "name": "Columns",
+                      "options": {
+                        "stackColumnsAt": "mobile",
+                        "space": 40,
+                        "reverseColumnsWhenStacked": false,
+                        "columns": [
+                          {
+                            "blocks": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "tagName": "div",
+                                "id": "builder-a4d004b00e6c44af8bed6d5e5e0dfc73",
+                                "children": [
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-5a6f6388d9534e2a9aabfca6f2c46eed",
+                                    "component": {
+                                      "name": "Image",
+                                      "options": {
+                                        "image": "https://images.pexels.com/photos/12214773/pexels-photo-12214773.jpeg",
+                                        "backgroundSize": "cover",
+                                        "backgroundPosition": "center",
+                                        "lazy": false,
+                                        "fitContent": true,
+                                        "aspectRatio": 0.8,
+                                        "lockAspectRatio": false,
+                                        "height": 400,
+                                        "width": 500
+                                      },
+                                      "isRSC": null
+                                    },
+                                    "responsiveStyles": {
+                                      "large": {
+                                        "display": "flex",
+                                        "flexDirection": "column",
+                                        "position": "relative",
+                                        "flexShrink": "0",
+                                        "boxSizing": "border-box",
+                                        "width": "100%",
+                                        "minHeight": "20px",
+                                        "minWidth": "20px",
+                                        "overflow": "hidden",
+                                        "borderRadius": "24px",
+                                        "boxShadow": "0 20px 60px rgba(79, 70, 229, 0.15)",
+                                        "transform": "rotate(-2deg)",
+                                        "transition": "transform 0.3s ease"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "tagName": "div",
+                                    "id": "builder-a8191223d52049f6bedeadafe0b6c76c",
+                                    "responsiveStyles": {
+                                      "large": {
+                                        "position": "absolute",
+                                        "top": "-20px",
+                                        "right": "-20px",
+                                        "width": "80px",
+                                        "height": "80px",
+                                        "borderRadius": "50%",
+                                        "backgroundColor": "rgba(223, 255, 90, 0.3)",
+                                        "zIndex": "-1"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "tagName": "div",
+                                    "id": "builder-18e6cb1d69f34b54b1395cf95c40a743",
+                                    "responsiveStyles": {
+                                      "large": {
+                                        "position": "absolute",
+                                        "bottom": "-30px",
+                                        "left": "-30px",
+                                        "width": "120px",
+                                        "height": "120px",
+                                        "borderRadius": "50%",
+                                        "backgroundColor": "rgba(79, 70, 229, 0.1)",
+                                        "zIndex": "-1"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "height": "auto",
+                                    "marginTop": "auto",
+                                    "marginBottom": "auto"
+                                  }
+                                }
+                              }
+                            ],
+                            "width": 45
+                          },
+                          {
+                            "blocks": [
+                              {
+                                "@type": "@builder.io/sdk:Element",
+                                "@version": 2,
+                                "tagName": "div",
+                                "id": "builder-e5bfdccff1824f7abb325b7e8d99e1af",
+                                "children": [
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-0b8f665ffcff4eedbd4b2f2ff7ebcb8c",
+                                    "class": "text-red-500",
+                                    "component": {
+                                      "name": "Text",
+                                      "options": {
+                                        "text": "<span style=\"white-space-collapse: preserve; color: rgb(79, 70, 229);\">d✨ Descobrindo a Energia</span>"
+                                      },
+                                      "isRSC": null
+                                    },
+                                    "responsiveStyles": {
+                                      "large": {
+                                        "lineHeight": "normal",
+                                        "fontSize": "16px",
+                                        "fontWeight": "600",
+                                        "textTransform": "uppercase",
+                                        "letterSpacing": "0.5px",
+                                        "marginBottom": "12px",
+                                        "color": "rgba(176, 39, 39, 1)"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-add4f84c9031496bb33cc5b1ee518569",
+                                    "class": "text-sky400",
+                                    "component": {
+                                      "name": "Text",
+                                      "options": {
+                                        "text": "<span style=\"white-space-collapse: preserve;\">A Energia em Movimento no Universo</span>"
+                                      },
+                                      "isRSC": null
+                                    },
+                                    "responsiveStyles": {
+                                      "large": {
+                                        "display": "flex",
+                                        "flexDirection": "column",
+                                        "position": "relative",
+                                        "flexShrink": "0",
+                                        "boxSizing": "border-box",
+                                        "lineHeight": "1.2",
+                                        "height": "auto",
+                                        "fontSize": "32px",
+                                        "fontWeight": "700",
+                                        "marginBottom": "24px",
+                                        "fontFamily": "Inter, sans-serif"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-470a699a5ba5487189025a4256ca81e6",
+                                    "component": {
+                                      "name": "Text",
+                                      "options": {
+                                        "text": "<p><span style=\"white-space-collapse: preserve;\">A energia é uma força fundamental que permeia todo o universo, desde as menores partículas até as maiores galáxias. Ela está presente em cada movimento, em cada transformação e em cada processo vital.</span></p><p style=\"margin-top: 16px;\"><span style=\"white-space-collapse: preserve;\">No Projeto Biomaq, você descobrirá como a energia se manifesta na natureza e como ela é essencial para a vida em nosso planeta.</span></p>"
+                                      },
+                                      "isRSC": null
+                                    },
+                                    "responsiveStyles": {
+                                      "large": {
+                                        "display": "flex",
+                                        "flexDirection": "column",
+                                        "position": "relative",
+                                        "flexShrink": "0",
+                                        "boxSizing": "border-box",
+                                        "lineHeight": "1.6",
+                                        "height": "auto",
+                                        "fontSize": "18px",
+                                        "color": "rgba(75, 85, 99, 1)",
+                                        "marginBottom": "32px"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "id": "builder-b9cd4af3df92468a8886bfcee6cfefeb",
+                                    "class": "text-red-500",
+                                    "component": {
+                                      "name": "Text",
+                                      "options": {
+                                        "text": "<p>Texto de teste para compreender o componente</p>"
+                                      },
+                                      "isRSC": null
+                                    },
+                                    "responsiveStyles": {
+                                      "large": {
+                                        "display": "flex",
+                                        "flexDirection": "column",
+                                        "position": "relative",
+                                        "flexShrink": "0",
+                                        "boxSizing": "border-box",
+                                        "marginTop": "0px",
+                                        "lineHeight": "normal",
+                                        "height": "auto",
+                                        "marginBottom": "20px"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "@type": "@builder.io/sdk:Element",
+                                    "@version": 2,
+                                    "tagName": "div",
+                                    "id": "builder-23c471b9ba0c4bf1bb2a76a318fe9c54",
+                                    "children": [
+                                      {
+                                        "@type": "@builder.io/sdk:Element",
+                                        "@version": 2,
+                                        "tagName": "div",
+                                        "id": "builder-aee7ae786b7d42a9a6329806e2d4b372",
+                                        "children": [
+                                          {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "@version": 2,
+                                            "tagName": "div",
+                                            "id": "builder-14e630c65b234064b4743ff49924ee1e",
+                                            "responsiveStyles": {
+                                              "large": {
+                                                "width": "8px",
+                                                "height": "8px",
+                                                "borderRadius": "50%",
+                                                "backgroundColor": "rgba(79, 70, 229, 1)",
+                                                "flexShrink": "0"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "@version": 2,
+                                            "id": "builder-90230aef6f1b4e35aba3da081de31fde",
+                                            "component": {
+                                              "name": "Text",
+                                              "options": {
+                                                "text": "<span style=\"white-space-collapse: preserve;\">Compreender os conceitos fundamentais da energia</span>"
+                                              },
+                                              "isRSC": null
+                                            },
+                                            "responsiveStyles": {
+                                              "large": {
+                                                "fontSize": "16px",
+                                                "color": "rgba(55, 55, 55, 1)",
+                                                "fontWeight": "500"
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "responsiveStyles": {
+                                          "large": {
+                                            "display": "flex",
+                                            "alignItems": "center",
+                                            "gap": "12px"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "@type": "@builder.io/sdk:Element",
+                                        "@version": 2,
+                                        "tagName": "div",
+                                        "id": "builder-c32fb5abd58d43448bf2e81bacfaa5e3",
+                                        "children": [
+                                          {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "@version": 2,
+                                            "tagName": "div",
+                                            "id": "builder-663ae0b6f02d48308e73a76071de3447",
+                                            "responsiveStyles": {
+                                              "large": {
+                                                "width": "8px",
+                                                "height": "8px",
+                                                "borderRadius": "50%",
+                                                "backgroundColor": "rgba(79, 70, 229, 1)",
+                                                "flexShrink": "0"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "@version": 2,
+                                            "id": "builder-79a99dc14df441d69358419eec08461d",
+                                            "component": {
+                                              "name": "Text",
+                                              "options": {
+                                                "text": "<span style=\"white-space-collapse: preserve;\">Explorar como a energia se manifesta na natureza</span>"
+                                              },
+                                              "isRSC": null
+                                            },
+                                            "responsiveStyles": {
+                                              "large": {
+                                                "fontSize": "16px",
+                                                "color": "rgba(55, 55, 55, 1)",
+                                                "fontWeight": "500"
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "responsiveStyles": {
+                                          "large": {
+                                            "display": "flex",
+                                            "alignItems": "center",
+                                            "gap": "12px"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "@type": "@builder.io/sdk:Element",
+                                        "@version": 2,
+                                        "tagName": "div",
+                                        "id": "builder-fb59e11cacbf400f866b6f815f4d563b",
+                                        "children": [
+                                          {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "@version": 2,
+                                            "tagName": "div",
+                                            "id": "builder-24ab9c4625cc4eef885bf2e7dc4d4968",
+                                            "responsiveStyles": {
+                                              "large": {
+                                                "width": "8px",
+                                                "height": "8px",
+                                                "borderRadius": "50%",
+                                                "backgroundColor": "rgba(79, 70, 229, 1)",
+                                                "flexShrink": "0"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "@type": "@builder.io/sdk:Element",
+                                            "@version": 2,
+                                            "id": "builder-6a67233b19f84739985af4ff178fe33e",
+                                            "component": {
+                                              "name": "Text",
+                                              "options": {
+                                                "text": "<span style=\"white-space-collapse: preserve;\">Descobrir a importância da energia para a vida</span>"
+                                              },
+                                              "isRSC": null
+                                            },
+                                            "responsiveStyles": {
+                                              "large": {
+                                                "fontSize": "16px",
+                                                "color": "rgba(55, 55, 55, 1)",
+                                                "fontWeight": "500"
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "responsiveStyles": {
+                                          "large": {
+                                            "display": "flex",
+                                            "alignItems": "center",
+                                            "gap": "12px"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "responsiveStyles": {
+                                      "large": {
+                                        "display": "flex",
+                                        "flexDirection": "column",
+                                        "position": "relative",
+                                        "flexShrink": "0",
+                                        "boxSizing": "border-box",
+                                        "gap": "16px"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "responsiveStyles": {
+                                  "large": {
+                                    "display": "flex",
+                                    "flexDirection": "column",
+                                    "position": "relative",
+                                    "flexShrink": "0",
+                                    "boxSizing": "border-box",
+                                    "marginTop": "auto",
+                                    "height": "auto",
+                                    "marginBottom": "auto",
+                                    "paddingLeft": "20px"
+                                  }
+                                }
+                              }
+                            ],
+                            "width": 55
+                          }
+                        ]
+                      },
+                      "isRSC": null
+                    },
+                    "responsiveStyles": {
+                      "large": {
+                        "display": "flex",
+                        "flexDirection": "column",
+                        "position": "relative",
+                        "flexShrink": "0",
+                        "boxSizing": "border-box",
+                        "marginTop": "0px",
+                        "alignItems": "center"
+                      }
+                    }
+                  }
+                ],
+                "responsiveStyles": {
+                  "large": {
+                    "display": "flex",
+                    "flexDirection": "column",
+                    "position": "relative",
+                    "flexShrink": "0",
+                    "boxSizing": "border-box",
+                    "height": "auto",
+                    "maxWidth": "1000px",
+                    "marginLeft": "auto",
+                    "marginRight": "auto",
+                    "width": "100%",
+                    "paddingLeft": "20px",
+                    "paddingRight": "20px",
+                    "zIndex": "2"
+                  }
+                }
+              }
+            ],
+            "responsiveStyles": {
+              "large": {
+                "display": "flex",
+                "flexDirection": "column",
+                "position": "relative",
+                "flexShrink": "0",
+                "boxSizing": "border-box",
+                "marginTop": "0px",
+                "height": "auto",
+                "width": "100%",
+                "minHeight": "600px",
+                "backgroundColor": "rgba(245, 247, 250, 1)",
+                "overflow": "hidden",
+                "paddingTop": "60px",
+                "paddingBottom": "60px"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-ee14017afa0b464f91d42498ed1faffc",
+        "component": {
+          "name": "AccordionContained",
+          "options": {
+            "accordionList": [
+              {
+                "accordionName": "Item 1",
+                "blocks": []
+              }
+            ]
+          },
+          "isRSC": null
+        },
+        "responsiveStyles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "position": "relative",
+            "flexShrink": "0",
+            "boxSizing": "border-box",
+            "marginTop": "20px"
+          }
+        }
+      },
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "id": "builder-6d5cac4b633e4428a8e2c96b6c653a7f",
+        "component": {
+          "name": "Core:Button",
+          "options": {
+            "text": "Click me!",
+            "openLinkInNewTab": false
+          },
+          "isRSC": null
+        },
+        "responsiveStyles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "position": "relative",
+            "flexShrink": "0",
+            "boxSizing": "border-box",
+            "marginTop": "20px",
+            "appearance": "none",
+            "paddingTop": "15px",
+            "paddingBottom": "15px",
+            "paddingLeft": "25px",
+            "paddingRight": "25px",
+            "backgroundColor": "black",
+            "color": "white",
+            "borderRadius": "4px",
+            "textAlign": "center",
+            "cursor": "pointer"
+          }
+        }
+      },
+      {
+        "id": "builder-pixel-d9rr2fjx60t",
+        "@type": "@builder.io/sdk:Element",
+        "tagName": "img",
+        "properties": {
+          "src": "https://cdn.builder.io/api/v1/pixel?apiKey=e8f1ac52bdd7497498f100bd5d54e5d7",
+          "aria-hidden": "true",
+          "alt": "",
+          "role": "presentation",
+          "width": "0",
+          "height": "0"
+        },
+        "responsiveStyles": {
+          "large": {
+            "height": "0",
+            "width": "0",
+            "display": "inline-block",
+            "opacity": "0",
+            "overflow": "hidden",
+            "pointerEvents": "none"
+          }
+        }
+      }
+    ],
+    "url": "/choice"
+  },
+  "variations": {},
+  "lastUpdated": 1755629526577,
+  "firstPublished": 1754341111621,
+  "testRatio": 1,
+  "screenshot": "https://cdn.builder.io/api/v1/image/assets%2Fe8f1ac52bdd7497498f100bd5d54e5d7%2Ff99e2598fbfc448cafc919f1152c5e74",
+  "createdBy": "cBFDhcyltiTllyXXTffPWa7Kg4c2",
+  "lastUpdatedBy": "cBFDhcyltiTllyXXTffPWa7Kg4c2",
+  "folders": [],
+  "rev": "161gz0uz1ql",
+  "variationId": "9c949b1d38a141529b24bb1ed15b985e"
+}

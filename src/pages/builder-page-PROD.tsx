@@ -1,10 +1,10 @@
 // Import necessary dependencies
 // @ts-ignore
-import { BuilderComponent, builder, useIsPreviewing } from "@builder.io/react";
-import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
-import "../lib/builder-registry";
-import Nav from "@/components/nav";
+import { BuilderComponent, builder, useIsPreviewing } from '@builder.io/react';
+import { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
+import '../lib/builder-registry';
+import Nav from '@/components/nav';
 // Initialize Builder.io with the API key from environment variables
 builder.init(import.meta.env.VITE_PUBLIC_BUILDER_KEY!);
 
@@ -22,7 +22,7 @@ export default function BuilderPage() {
   const [notFound, setNotFound] = useState(false);
 
   // Get current path, handling hash-based routing if needed
-  const currentPath = location.hash?.replace(/^#/, "") || location.pathname;
+  const currentPath = location.hash?.replace(/^#/, '') || location.pathname;
 
   // Effect to load content when component mounts or path changes
   useEffect(() => {
@@ -31,20 +31,19 @@ export default function BuilderPage() {
      */
     async function fetchContent() {
       // In production and not in Builder's preview mode, use local JSON
-      if (import.meta.env.MODE === "production" && !isPreviewingInBuilder) {
+      if (import.meta.env.MODE === 'production' && !isPreviewingInBuilder) {
         // Fetch static JSON file from public directory
         // Make this page be the index.html when builded
-        const response = await fetch("./builder-data/choice2.json");
-        if (!response.ok) throw new Error("Failed to load content");
+        const response = await fetch('./builder-data/exportedPage.json');
+        if (!response.ok) throw new Error('Failed to load content');
         const data = await response.json();
+        console.log('Copy JSON here:', data);
         setContent(data);
         setNotFound(!data);
       } else {
         // In development or Builder preview, fetch from Builder.io
-        const content = await builder
-          .get("page", { url: currentPath })
-          .promise();
-        console.log("content", content);
+        const content = await builder.get('page', { url: currentPath }).promise();
+        console.log('Copy JSON here:', content);
         setContent(content);
         setNotFound(!content);
       }
